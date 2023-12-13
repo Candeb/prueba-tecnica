@@ -1,0 +1,11 @@
+:root {
+  --red-color: rgba(220, 30, 15, 1);
+  --blue-color: rgba(15, 30, 123, 1);
+  --black-color: rgba(0, 0, 0, 1);
+  --grey-color: rgba(94, 94, 94, 1);
+  --lightblack-color: rgba(0, 0, 0, 0.72);
+  --lightgrey-color: rgba(236, 236, 236, 1);
+  --darkgrey-color: rgba(60, 60, 59, 1);
+  --white-color: rgba(255, 255, 255, 1);
+  --bordergrey-color: rgba(186, 186, 186, 1);
+}
