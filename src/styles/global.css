@@ -9,3 +9,9 @@
   --white-color: rgba(255, 255, 255, 1);
   --bordergrey-color: rgba(186, 186, 186, 1);
 }
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

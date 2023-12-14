@@ -2,9 +2,9 @@ import styled from 'styled-components';
 
 export const ContainerHeader = styled.div`
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  gap: 218px;
+
   height: 40px;
   max-width: 1440px;
   padding: 14px 70px;

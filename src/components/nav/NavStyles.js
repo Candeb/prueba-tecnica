@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const ContainerNav = styled.div`
-  padding: 14px 70px;
+  padding: 32px 70px 14px 70px;
 `;
 export const ContainerNavItem = styled.ul`
   display: flex;
@@ -9,6 +9,7 @@ export const ContainerNavItem = styled.ul`
   justify-content: flex-end;
   align-items: center;
   list-style: none;
+  margin: 0;
 `;
 
 export const NavItem = styled.li`
@@ -21,4 +22,5 @@ export const NavItem = styled.li`
   font-size: 16px;
   font-style: normal;
   line-height: normal;
+  gap: 8px;
 `;
