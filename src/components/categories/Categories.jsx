@@ -8,6 +8,7 @@ import {
 import { ReusableTitle } from '../titles/ReusableTitle';
 import { CardCategory } from './CardCategory';
 import { Carousel } from '../carousel/Carousel';
+import { BlackCirclesIcon } from '../carousel/BlackCirclesIcon';
 
 export const Categories = () => {
   return (
@@ -47,12 +48,23 @@ export const Categories = () => {
       </ContainerCardsCategories>
 
       <ContaierCardsCategoriesMobile>
-        <div>
+        <div
+          style={{
+            width: '100%',
+            display: 'flex',
+            flexDirection: 'column',
+            justifyContent: 'center',
+            alignItems: 'center',
+            gap: '20px',
+            marginTop: '15px',
+          }}
+        >
           <CardCategory
             bgImg="https://github.com/Candeb/prueba-tecnica/blob/main/src/assets/categoriazapatillas.jpg?raw=true"
             name="zapatillas"
-            margin="0 10px 0 0"
+            margin="25px 0px 0px 0px;"
           />
+          <BlackCirclesIcon />
         </div>
       </ContaierCardsCategoriesMobile>
     </ContainerCategories>

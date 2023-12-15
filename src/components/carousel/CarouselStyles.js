@@ -8,8 +8,8 @@ export const ContainerCarousel = styled.div`
   @media (max-width: 767px) {
     flex-direction: column;
     align-items: center;
-    padding-bottom: 15px;
-    padding-left: 16px;
+    width: 90%;
+    padding: 30px 16px;
   }
 `;
 

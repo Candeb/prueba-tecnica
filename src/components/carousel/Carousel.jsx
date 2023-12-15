@@ -8,7 +8,6 @@ import {
   BtnCarouselMobile,
   ContainerCards,
 } from './CarouselStyles';
-import { CirclesIcon } from '../hero/CirclesIcon';
 
 export function Carousel({ children, icon }) {
   const carouselRef = useRef(null);

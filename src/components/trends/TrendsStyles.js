@@ -11,7 +11,7 @@ export const ContainerTrends = styled.div`
   flex-shrink: 0;
 
   @media (max-width: 767px) {
-    margin-top: 30px;
+    margin-top: 15px;
     padding: 0;
   }
 `;

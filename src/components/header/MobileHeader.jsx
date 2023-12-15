@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import {
-  ContainerDesktopMobile,
+  ContainerMobileHeader,
   SearchBar,
   InputSearchBar,
   ContainerIcons,
@@ -30,7 +30,7 @@ export const MobileHeader = () => {
     scrollToTop();
   };
   return (
-    <ContainerDesktopMobile>
+    <ContainerMobileHeader>
       <ContainerHalfHeader style={{ padding: '10px 20px', height: '40px' }}>
         <button
           onClick={handlerMenu}
@@ -89,6 +89,6 @@ export const MobileHeader = () => {
           <SearchIcon />
         </SearchBar>
       </ContainerHalfHeader>
-    </ContainerDesktopMobile>
+    </ContainerMobileHeader>
   );
 };

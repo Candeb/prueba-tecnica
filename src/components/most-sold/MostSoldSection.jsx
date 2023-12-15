@@ -8,7 +8,7 @@ import { RedCirclesIcon } from '../carousel/RedCirclesIcon';
 export const MostSoldSection = () => {
   return (
     <ContainerMostSold>
-      <ReusableTitle color="--black-color">Las mas vendidas</ReusableTitle>
+      <ReusableTitle color="--black-color">Los mas vendidos</ReusableTitle>
       <Carousel icon={<RedCirclesIcon />}>
         <CardProduct />
         <CardProduct />

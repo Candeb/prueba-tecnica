@@ -5,7 +5,7 @@ export const ContainerMostSold = styled.div`
   padding: 0px 70px;
 
   @media (max-width: 767px) {
-    margin-top: 0;
+    margin-top: 50px;
     padding: 0;
   }
 `;

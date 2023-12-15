@@ -37,6 +37,11 @@ export const ContainerCardCategory = styled.div`
 export const CardContent = styled.div`
   display: flex;
   align-items: flex-end;
+  @media (max-width: 767px) {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
 `;
 
 export const TitleCard = styled.p`

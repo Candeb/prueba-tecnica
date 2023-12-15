@@ -13,5 +13,6 @@ export const SectionTitle = styled.h3`
   @media (max-width: 767px) {
     font-size: 24px;
     padding: 0 16px;
+    margin-top: 40px;
   }
 `;

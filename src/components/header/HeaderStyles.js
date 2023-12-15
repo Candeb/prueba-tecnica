@@ -9,7 +9,7 @@ export const ContainerDesktopHeader = styled.div`
   padding: 14px 70px;
 
   @media (max-width: 767px) {
-    display: none; /* mobile */
+    display: none;
   }
 `;
 
@@ -48,11 +48,11 @@ export const ContainerIcons = styled.div`
   }
 `;
 
-export const ContainerDesktopMobile = styled.div`
+export const ContainerMobileHeader = styled.div`
   display: flex;
   flex-direction: column;
   @media (min-width: 768px) {
-    display: none; /* desktop */
+    display: none;
   }
 `;
 
