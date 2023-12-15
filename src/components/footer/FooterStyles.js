@@ -5,7 +5,9 @@ export const ContainerFooter = styled.div`
   height: 290px;
   flex-shrink: 0;
   background: var(--black-color);
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
   padding: 40px 70px;
 `;
 
@@ -56,4 +58,13 @@ export const ItemContact = styled.p`
 
 export const ContainerCopyright = styled.div``;
 
-export const ItemCopyright = styled.p``;
+export const ItemCopyright = styled.p`
+  color: #fff;
+
+  text-align: center;
+  font-family: 'Rubik', sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+`;
