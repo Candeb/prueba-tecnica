@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const LogoMiTienda = styled.p`
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;
   font-size: 2rem;
   font-style: italic;
   font-weight: 800;

@@ -5,9 +5,12 @@ import {
   ContainerCarousel,
   CarouselBtn,
   ContainerCardsCarousel,
+  BtnCarouselMobile,
+  ContainerCards,
 } from './CarouselStyles';
+import { CirclesIcon } from '../hero/CirclesIcon';
 
-export function Carousel({ children }) {
+export function Carousel({ children, icon }) {
   const carouselRef = useRef(null);
   const [currentIndex, setCurrentIndex] = useState(0);
   const cardsToShow = 5;
@@ -55,24 +58,22 @@ export function Carousel({ children }) {
     <ContainerCarousel>
       <CarouselBtn
         onClick={() => previus()}
-        style={{ position: 'relative', left: '-35px', zIndex: 2 }}
+        style={{ position: 'relative', left: '-35px', zIndex: '2' }}
       >
         <BackIcon />
       </CarouselBtn>
       <ContainerCardsCarousel>
-        <div
+        <ContainerCards
           ref={carouselRef}
           style={{
-            display: 'flex',
             transform: `translateX(${-currentIndex * (100 / cardsToShow)}%)`,
             transition: 'transform 300ms ease-out',
-            gap: '11px',
           }}
         >
           {children.map((child, i) => (
             <div key={i}>{child}</div>
           ))}
-        </div>
+        </ContainerCards>
       </ContainerCardsCarousel>{' '}
       <CarouselBtn
         onClick={() => next()}
@@ -80,6 +81,7 @@ export function Carousel({ children }) {
       >
         <NextIcon />
       </CarouselBtn>
+      <BtnCarouselMobile onClick={() => next()}>{icon}</BtnCarouselMobile>
     </ContainerCarousel>
   );
 }

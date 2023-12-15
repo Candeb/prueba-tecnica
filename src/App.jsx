@@ -8,6 +8,10 @@ import { MostSoldSection } from './components/most-sold/MostSoldSection';
 import { NavDesktop } from './components/nav/NavDesktop';
 import { Trends } from './components/trends/Trends';
 
+export const scrollToTop = () => {
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+};
+
 function App() {
   return (
     <Layout>

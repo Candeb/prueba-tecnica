@@ -15,4 +15,8 @@ export const TitleMyAccount = styled.p`
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+
+  @media (max-width: 767px) {
+    display: none;
+  }
 `;

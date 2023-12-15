@@ -10,9 +10,9 @@ export const CirclesIcon = () => {
       fill="none"
     >
       <circle cx="6" cy="6" r="6" fill="white" />
-      <circle cx="39" cy="6" r="5.25" stroke="white" stroke-width="1.5" />
-      <circle cx="72" cy="6" r="5.25" stroke="white" stroke-width="1.5" />
-      <circle cx="105" cy="6" r="5.25" stroke="white" stroke-width="1.5" />
+      <circle cx="39" cy="6" r="5.25" stroke="white" strokeWidth="1.5" />
+      <circle cx="72" cy="6" r="5.25" stroke="white" strokeWidth="1.5" />
+      <circle cx="105" cy="6" r="5.25" stroke="white" strokeWidth="1.5" />
     </svg>
   );
 };

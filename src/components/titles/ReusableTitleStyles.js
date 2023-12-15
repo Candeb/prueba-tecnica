@@ -9,4 +9,9 @@ export const SectionTitle = styled.h3`
   font-weight: 800;
   line-height: 32px;
   text-transform: uppercase;
+
+  @media (max-width: 767px) {
+    font-size: 24px;
+    padding: 0 16px;
+  }
 `;

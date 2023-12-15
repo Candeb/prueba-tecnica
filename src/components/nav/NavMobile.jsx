@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { ContainerNav, ContainerNavItem } from './NavStyles';
 import { FireIcon } from './FireIcon';
 import { NavItemLink } from './NavItemLink';
 
-export const NavDesktop = () => {
+export const NavMobile = () => {
   return (
     <ContainerNav>
       <ContainerNavItem>

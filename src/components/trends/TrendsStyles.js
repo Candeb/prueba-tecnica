@@ -9,4 +9,9 @@ export const ContainerTrends = styled.div`
   justify-content: center;
   align-items: flex-start;
   flex-shrink: 0;
+
+  @media (max-width: 767px) {
+    margin-top: 30px;
+    padding: 0;
+  }
 `;

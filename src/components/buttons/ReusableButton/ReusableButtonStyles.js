@@ -14,4 +14,10 @@ export const BtnShop = styled.button`
   font-weight: 500;
   line-height: normal;
   background-color: transparent;
+
+  @media (max-width: 767px) {
+    font-size: 10px;
+    height: 16px;
+    width: auto;
+  }
 `;

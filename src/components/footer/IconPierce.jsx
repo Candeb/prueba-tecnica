@@ -9,7 +9,7 @@ export const IconPierce = () => {
       viewBox="0 0 71 15"
       fill="none"
     >
-      <g clip-path="url(#clip0_2_1036)">
+      <g clipPath="url(#clip0_2_1036)">
         <path
           d="M8.91189 6.13908H5.2317C2.66351 6.13908 0.936996 7.75902 0.936996 10.1698C0.936996 11.3365 1.32773 12.3359 2.06718 13.0628C2.83502 13.8175 3.93 14.2171 5.23283 14.2171H8.04296L8.91303 14.213C9.04479 14.213 9.1368 14.1273 9.1368 14.0044V12.4598C9.1368 12.337 9.04479 12.2513 8.91303 12.2513H5.26577C3.76189 12.2513 2.82821 11.4532 2.82821 10.1688C2.82821 8.88441 3.76189 8.1018 5.26577 8.1018L8.91189 8.09767C9.04365 8.09767 9.13566 8.01197 9.13566 7.88911V6.34454C9.13566 6.22168 9.04365 6.13599 8.91189 6.13599V6.13908Z"
           fill="url(#paint0_linear_2_1036)"
@@ -108,8 +108,8 @@ export const IconPierce = () => {
           y2="6.13908"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#5A4BA6" />
-          <stop offset="1" stop-color="#D14798" />
+          <stop stopColor="#5A4BA6" />
+          <stop offset="1" stopColor="#D14798" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_2_1036"
@@ -119,8 +119,8 @@ export const IconPierce = () => {
           y2="0"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#5A4BA6" />
-          <stop offset="1" stop-color="#D14798" />
+          <stop stopColor="#5A4BA6" />
+          <stop offset="1" stopColor="#D14798" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_2_1036"
@@ -130,8 +130,8 @@ export const IconPierce = () => {
           y2="0.015681"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#5A4BA6" />
-          <stop offset="1" stop-color="#D14798" />
+          <stop stopColor="#5A4BA6" />
+          <stop offset="1" stopColor="#D14798" />
         </linearGradient>
         <linearGradient
           id="paint3_linear_2_1036"
@@ -141,8 +141,8 @@ export const IconPierce = () => {
           y2="-6.02595e-05"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#5A4BA6" />
-          <stop offset="1" stop-color="#D14798" />
+          <stop stopColor="#5A4BA6" />
+          <stop offset="1" stopColor="#D14798" />
         </linearGradient>
         <linearGradient
           id="paint4_linear_2_1036"
@@ -152,8 +152,8 @@ export const IconPierce = () => {
           y2="12.2264"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#5A4BA6" />
-          <stop offset="1" stop-color="#D14798" />
+          <stop stopColor="#5A4BA6" />
+          <stop offset="1" stopColor="#D14798" />
         </linearGradient>
         <linearGradient
           id="paint5_linear_2_1036"
@@ -163,8 +163,8 @@ export const IconPierce = () => {
           y2="1.88525"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#5A4BA6" />
-          <stop offset="1" stop-color="#D14798" />
+          <stop stopColor="#5A4BA6" />
+          <stop offset="1" stopColor="#D14798" />
         </linearGradient>
         <linearGradient
           id="paint6_linear_2_1036"
@@ -174,8 +174,8 @@ export const IconPierce = () => {
           y2="1.82544"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#5A4BA6" />
-          <stop offset="1" stop-color="#D14798" />
+          <stop stopColor="#5A4BA6" />
+          <stop offset="1" stopColor="#D14798" />
         </linearGradient>
         <linearGradient
           id="paint7_linear_2_1036"
@@ -185,8 +185,8 @@ export const IconPierce = () => {
           y2="3.89752"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#5A4BA6" />
-          <stop offset="1" stop-color="#D14798" />
+          <stop stopColor="#5A4BA6" />
+          <stop offset="1" stopColor="#D14798" />
         </linearGradient>
         <linearGradient
           id="paint8_linear_2_1036"
@@ -196,8 +196,8 @@ export const IconPierce = () => {
           y2="3.91211"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#5A4BA6" />
-          <stop offset="1" stop-color="#D14798" />
+          <stop stopColor="#5A4BA6" />
+          <stop offset="1" stopColor="#D14798" />
         </linearGradient>
         <linearGradient
           id="paint9_linear_2_1036"
@@ -207,8 +207,8 @@ export const IconPierce = () => {
           y2="3.89752"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#5A4BA6" />
-          <stop offset="1" stop-color="#D14798" />
+          <stop stopColor="#5A4BA6" />
+          <stop offset="1" stopColor="#D14798" />
         </linearGradient>
         <linearGradient
           id="paint10_linear_2_1036"
@@ -218,8 +218,8 @@ export const IconPierce = () => {
           y2="3.89752"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#5A4BA6" />
-          <stop offset="1" stop-color="#D14798" />
+          <stop stopColor="#5A4BA6" />
+          <stop offset="1" stopColor="#D14798" />
         </linearGradient>
         <clipPath id="clip0_2_1036">
           <rect

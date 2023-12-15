@@ -3,9 +3,11 @@ import {
   ContainerCardCategory,
   ContainerCategories,
   ContainerCardsCategories,
+  ContaierCardsCategoriesMobile,
 } from './CategoriesStyles';
 import { ReusableTitle } from '../titles/ReusableTitle';
 import { CardCategory } from './CardCategory';
+import { Carousel } from '../carousel/Carousel';
 
 export const Categories = () => {
   return (
@@ -43,6 +45,16 @@ export const Categories = () => {
           />
         </ContainerCardCategory>{' '}
       </ContainerCardsCategories>
+
+      <ContaierCardsCategoriesMobile>
+        <div>
+          <CardCategory
+            bgImg="https://github.com/Candeb/prueba-tecnica/blob/main/src/assets/categoriazapatillas.jpg?raw=true"
+            name="zapatillas"
+            margin="0 10px 0 0"
+          />
+        </div>
+      </ContaierCardsCategoriesMobile>
     </ContainerCategories>
   );
 };
