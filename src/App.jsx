@@ -1,4 +1,5 @@
 import { Categories } from './components/categories/Categories';
+import { Footer } from './components/footer/Footer';
 import { Header } from './components/header/Header';
 import { Hero } from './components/hero/Hero';
 import { InfoSection } from './components/info-section/InfoSection';
@@ -17,6 +18,7 @@ function App() {
       <Categories />
       <MostSoldSection />
       <InfoSection />
+      <Footer />
     </Layout>
   );
 }
