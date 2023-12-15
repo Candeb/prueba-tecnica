@@ -8,27 +8,35 @@ export const ContainerFooter = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  padding: 40px 70px;
+  padding: 45px 70px 15px 70px;
 `;
 
-export const ContainerFooterInfo = styled.div``;
+export const ContainerFooterInfo = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+`;
 
-export const ContainerItemFooter = styled.div``;
+export const ContainerItemFooter = styled.div`
+  display: flex;
+  flex-direction: column;
+`;
 
 export const ItemFooter = styled.p`
   color: var(--white-color);
   font-family: 'Rubik', sans-serif;
   font-size: 14px;
   font-weight: 500;
-  line-height: 24px;
   text-transform: uppercase;
   display: flex;
   align-items: center;
   gap: 20px;
+  margin: 0;
+  line-height: 24px;
 `;
 
 export const BtnFooter = styled.button`
-  width: 194px;
+  width: 203px;
   height: 40px;
   flex-shrink: 0;
   border: 1px solid var(--white-color);
@@ -38,8 +46,7 @@ export const BtnFooter = styled.button`
   color: var(--white-color);
   font-family: 'Rubik', sans-serif;
   font-size: 12px;
-  font-weight: 400;
-  line-height: 14px;
+  text-align: end;
 `;
 
 export const ContainerContact = styled.div`
@@ -53,18 +60,28 @@ export const ItemContact = styled.p`
   font-family: 'Rubik', sans-serif;
   font-size: 14px;
   font-weight: 400;
+  margin: 0;
   line-height: 22px;
 `;
 
-export const ContainerCopyright = styled.div``;
+export const ContainerCopyright = styled.div`
+  display: flex;
+  width: 100%;
+  margin-top: 30px;
+  justify-content: space-between;
+`;
 
 export const ItemCopyright = styled.p`
-  color: #fff;
-
+  color: var(--white-color);
   text-align: center;
   font-family: 'Rubik', sans-serif;
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
-  line-height: 16px;
+`;
+
+export const DataFiscal = styled.img`
+  width: 29.461px;
+  height: 37.146px;
+  margin-right: -24px;
 `;

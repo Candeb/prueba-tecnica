@@ -9,6 +9,7 @@ import {
   ItemFooter,
   ContainerCopyright,
   ItemCopyright,
+  DataFiscal,
 } from './FooterStyles';
 import { Logo } from '../logo/Logo';
 import { IconLocation } from './IconLocation';
@@ -31,14 +32,21 @@ export const Footer = () => {
             <ItemFooter>Medios de pago</ItemFooter>
             <ItemFooter>Preguntas frecuentes</ItemFooter>
           </ContainerItemFooter>{' '}
-          <BtnFooter> Boton de arrepentimiento</BtnFooter>
+          <BtnFooter> Botón de arrepentimiento</BtnFooter>
         </ContainerFooterInfo>
 
-        <Logo color="--white-color" />
+        <Logo
+          color="--white-color"
+          style={{
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
+          }}
+        />
 
         <ContainerFooterInfo>
-          <ContainerItemFooter>
-            <ItemFooter>
+          <ContainerItemFooter style={{ gap: '10px' }}>
+            <ItemFooter style={{ marginTop: '10px' }}>
               {' '}
               <IconLocation /> Sucursales
             </ItemFooter>
@@ -52,7 +60,13 @@ export const Footer = () => {
       </div>
 
       <ContainerCopyright>
-        <div>
+        <div
+          style={{
+            display: 'flex',
+            alignItems: 'center',
+            gap: '20px',
+          }}
+        >
           <ItemCopyright>Powered by Pierce commerce</ItemCopyright>
           <ItemCopyright>
             <IconPierce />
@@ -62,8 +76,15 @@ export const Footer = () => {
             style={{ width: '51.093px', height: '19.679px' }}
           />{' '}
         </div>
-        <div>
+        <div
+          style={{
+            display: 'flex',
+
+            gap: '150px',
+          }}
+        >
           <ItemCopyright>© 2023 MateuSports</ItemCopyright>
+          <DataFiscal src="https://github.com/Candeb/prueba-tecnica/blob/main/src/assets/datafiscal.jpg?raw=true" />
         </div>
       </ContainerCopyright>
     </ContainerFooter>
