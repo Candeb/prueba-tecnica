@@ -22,7 +22,7 @@ export const ContainerCirclesIcon = styled.div`
   width: 100px;
 
   @media (max-width: 767px) {
-    left: 118px;
+    left: 125px;
     top: -35px;
   }
 `;
